@@ -1,0 +1,9 @@
+.iconsContainer {
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
+  max-width: 400px;
+  justify-content: center;
+}
