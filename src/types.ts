@@ -1,4 +1,11 @@
 export interface IconProps {
-  size?: string | number;
   color?: string;
+}
+
+export interface ProjectProps {
+  title: string;
+  imagePath: string;
+  imageAltText: string;
+  description: string;
+  tech: React.FC<IconProps>[];
 }

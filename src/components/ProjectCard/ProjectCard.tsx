@@ -6,10 +6,10 @@ interface ProjectCardProps {
   imageAltText: string;
   title: string;
   description: string;
-  tech?: Array<React.FC<IconProps>>;
+  tech: Array<React.FC<IconProps>>;
 }
 
-const ProjectCard: React.FC = ({
+const ProjectCard: React.FC<ProjectCardProps> = ({
   imagePath,
   imageAltText,
   title,
@@ -17,14 +17,16 @@ const ProjectCard: React.FC = ({
   tech,
 }) => {
   return (
-    <div>
+    <div className={styles.projectCard}>
       <img src={imagePath} alt={imageAltText} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <div className={styles.techStack}>
-        {tech.map((Icon: IconProps, index: number) => (
-          <Icon key={index} size="1.5rem" />
-        ))}
+      <div className={styles.projectInfo}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className={styles.techStack}>
+          {tech.map((Icon, index) => (
+            <Icon key={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

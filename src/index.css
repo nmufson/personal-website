@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+:root {
+  --very-light-blue: #f7fbfc;
+  --light-pastel-blue: #d6e6f2;
+  --soft-blue: #b9d7ea;
+  --moderate-blue: #769fcd;
+
+  --dark-text: #333333;
+  --light-text: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +24,7 @@ a {
 #root {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh;
   padding: 0;
 }
@@ -22,11 +33,18 @@ body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  background-color: var(--very-light-blue);
+  color: var(--dark-text);
+}
+
+header {
+  max-width: 1000px;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  width: 100%;
   margin: 1.5rem 0 1.5rem 0;
   gap: 1rem;
 }
@@ -34,20 +52,49 @@ section {
 h1,
 h2,
 h3 {
-  font-weight: 700; /* Bold for headings */
+  font-weight: 700;
+  color: var(--moderate-blue);
+}
+
+a {
+  color: var(--moderate-blue);
+}
+
+a:hover {
+  color: var(--light-pastel-blue);
+}
+
+button {
+  background-color: var(--moderate-blue);
+  color: var(--light-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--soft-blue);
+}
+
+footer {
+  background-color: var(--soft-blue);
+  color: var(--dark-text);
+  max-width: 1000px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px; /* 1rem = 16px */
+  body {
+    font-size: 16px;
   }
-  .modal {
-    max-width: none;
+  section {
+    gap: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
-  html {
-    font-size: 18px; /* 1rem = 18px */
+  body {
+    font-size: 18px;
   }
 }

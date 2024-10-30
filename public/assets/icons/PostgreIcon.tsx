@@ -1,14 +1,12 @@
 import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const PostgreIcon: React.FC<IconProps> = ({ size = 40, color = '#4169E1' }) => {
+const PostgreIcon: React.FC<IconProps> = ({ color = '#4169E1' }) => {
   return (
     <svg
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
       fill={color}
     >
       <title>React</title>

@@ -1,14 +1,12 @@
 import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const ReactIcon: React.FC<IconProps> = ({ size = 40, color = '#61DAFB' }) => {
+const ReactIcon: React.FC<IconProps> = ({ color = '#61DAFB' }) => {
   return (
     <svg
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
       fill={color}
     >
       <title>React</title>

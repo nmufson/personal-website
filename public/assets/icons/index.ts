@@ -8,3 +8,7 @@ export { default as PostgreIcon } from './PostgreIcon';
 export { default as PrismaIcon } from './PrismaIcon';
 export { default as ReactIcon } from './ReactIcon';
 export { default as TypeScriptIcon } from './TypeScriptIcon';
+export { default as LinkedInIcon } from './LinkedInIcon';
+export { default as GitHubIcon } from './GitHubIcon';
+export { default as EmailIcon } from './EmailIcon';
+export { default as CloseIcon } from './CloseIcon';

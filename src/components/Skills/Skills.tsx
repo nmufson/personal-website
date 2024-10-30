@@ -37,7 +37,7 @@ const Skills = () => {
     <div className={styles.iconsContainer}>
       {techStackIcons.map(({ Icon, name }) => (
         <IconWrapper key={name} techName={name}>
-          <Icon size="2.5rem" />
+          <Icon />
         </IconWrapper>
       ))}
     </div>
