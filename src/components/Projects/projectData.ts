@@ -12,7 +12,7 @@ const projects: ProjectProps[] = [
     imagePath: './assets/blog-screenshot.png',
     imageAltText: 'blog project screenshot',
     description:
-      'A comprehensive blogging platform featuring a backend integrated with two frontends for authors and regular users. Built with technologies including React.js, Node.js, Express.js, and PostgreSQL, the platform allows users to browse posts, sign up for new accounts, and leave comments. Authors can manage their posts using the TinyMCE editor for custom layouts, enabling them to create, edit, and delete content easily. User authentication hanndled via JWT and maintains a structured database schema through Prisma ORM.',
+      'A comprehensive blogging platform featuring a backend integrated with two frontends for authors and users. Built with React, Node, Express, and PostgreSQL, it lets users browse posts, sign up, and comment. Authors manage posts with TinyMCE editor for custom layouts, with create, edit, and delete functionality. User authentication is via JWT, with database management by Prisma ORM.',
     tech: [JavaScriptIcon, ReactIcon, NodeIcon],
   },
   {
