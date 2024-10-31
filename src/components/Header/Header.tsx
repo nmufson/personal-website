@@ -36,12 +36,36 @@ const Header: React.FC = () => {
           }`}
           aria-label="Toggle Menu"
         >
-          {!isMenuOpen ? '☰' : <CloseIcon />}
+          ☰
         </button>
 
         <div
           className={`${styles.mobileMenu} ${isMenuOpen ? styles.isOpen : ''}`}
         >
+          <div className={styles.topContainer}>
+            <div className={styles.contactContainer}>
+              <a
+                href="https://www.linkedin.com/in/nicholasmufson/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon />
+              </a>
+              <a
+                href="https://github.com/nmufson"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubIcon />
+              </a>
+              <a href="mailto:nickmufson1@gmail.com" className={styles.email}>
+                <EmailIcon />
+              </a>
+            </div>
+            <div onClick={toggleMenu} className={styles.closeWrapper}>
+              <CloseIcon></CloseIcon>
+            </div>
+          </div>
           <nav className={styles.mobileNav}>
             <a href="#skills" onClick={toggleMenu}>
               Skills
@@ -49,34 +73,13 @@ const Header: React.FC = () => {
             <a href="#projects" onClick={toggleMenu}>
               Projects
             </a>
-            <a href="#interests" onClick={toggleMenu}>
-              Interests
-            </a>
             <a href="#contact" onClick={toggleMenu}>
               Contact
             </a>
+            <a href="#interests" onClick={toggleMenu}>
+              Interests
+            </a>
           </nav>
-          <div className={styles.contactContainer}>
-            {/* target blank for new tab */}
-            {/* rel for security */}
-            <a
-              href="https://www.linkedin.com/in/nicholasmufson/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkedInIcon />
-            </a>
-            <a
-              href="https://github.com/nmufson"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GitHubIcon />
-            </a>
-            <a href="mailto:nickmufson1@gmail.com" className={styles.email}>
-              <EmailIcon />
-            </a>
-          </div>
         </div>
       </header>
       {isMenuOpen && <div className={styles.backdrop} onClick={toggleMenu} />}

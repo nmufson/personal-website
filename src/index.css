@@ -37,8 +37,9 @@ body {
   color: var(--dark-text);
 }
 
-header {
-  max-width: 1000px;
+header,
+main {
+  max-width: 1240px;
 }
 
 section {
@@ -50,10 +51,14 @@ section {
 }
 
 h1,
-h2,
 h3 {
   font-weight: 700;
   color: var(--moderate-blue);
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--dark-text);
 }
 
 a {
@@ -61,7 +66,7 @@ a {
 }
 
 a:hover {
-  color: var(--light-pastel-blue);
+  color: var(--dark-text);
 }
 
 button {
@@ -81,7 +86,7 @@ button:hover {
 footer {
   background-color: var(--soft-blue);
   color: var(--dark-text);
-  max-width: 1000px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {

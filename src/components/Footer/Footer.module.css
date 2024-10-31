@@ -4,4 +4,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.1rem;
+}
+
+.footer a {
+  color: var(--dark-text);
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--moderate-blue);
+}
+
+@media (min-width: 768px) {
+  .footer p {
+    font-size: 1.3rem;
+  }
 }

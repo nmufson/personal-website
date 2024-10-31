@@ -8,7 +8,7 @@
 
 .name {
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .secondLine {
@@ -27,19 +27,37 @@
   transition: color 0.2s;
   font-size: 1.5rem;
   font-weight: 400;
-  border-bottom: 4px solid var(--soft-blue);
+
+  position: relative;
+  padding: 2px;
+}
+
+.desktopNav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.desktopNav a:hover::after {
+  width: 100%;
 }
 
 .desktopNav a:hover {
   color: inherit;
-  border-bottom: 4px solid black;
 }
 
 .sideBarButton {
+  color: var(--dark-text);
   border: none;
   background: none;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 2.5rem;
   position: relative;
   z-index: 60;
   transition: transform 0.3s ease;
@@ -65,22 +83,18 @@
   gap: 1rem;
   position: fixed;
   top: 0;
-
   width: 70%;
   height: 100vh;
   background-color: white;
-  padding: 5rem 2rem;
-  z-index: 40;
-  /* starts -300 from the right off screen */
+  z-index: 80;
+
   right: -300px;
-  /* transforms over .3s from transformed state back to default position (right: -300px)
-  , turns visibility to hidden in 0s after .3s delay */
+
   transition: transform 0.3s ease-in-out, visibility 0s linear 0.3s;
   visibility: hidden;
 }
 
 .mobileMenu.isOpen {
-  /* transforms 300px to the left */
   transform: translateX(-300px);
   visibility: visible;
   transition: transform 0.3s ease-in-out, visibility 0s linear;
@@ -91,6 +105,7 @@
   flex-direction: column;
   font-size: 1.7rem;
   gap: 0.5rem;
+  padding: 0 1rem;
 }
 
 .mobileNav a {
@@ -107,6 +122,14 @@
   border-bottom-color: #666;
 }
 
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0.5rem 0 0.5rem;
+  background-color: var(--light-pastel-blue);
+}
+
 .contactContainer {
   display: flex;
   gap: 1rem;
@@ -117,6 +140,11 @@
 .contactContainer svg {
   width: 2rem;
   height: 2rem;
+}
+
+.closeWrapper svg {
+  width: 3rem;
+  height: 3rem;
 }
 
 .email svg {
@@ -136,10 +164,18 @@
 
 @media (min-width: 768px) {
   .desktopNav {
-    display: flex; /* Show desktop nav */
+    display: flex;
+  }
+
+  .desktopNav a {
+    font-size: 1.5rem;
   }
 
   .sideBarButton {
-    display: none; /* Hide hamburger button */
+    display: none;
+  }
+
+  .name {
+    font-size: 2.4rem;
   }
 }

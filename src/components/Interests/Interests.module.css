@@ -1,0 +1,17 @@
+.interestGroup h3 {
+  font-size: 1.2rem;
+}
+
+.interestGroup p {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .interestGroup h3 {
+    font-size: 1.6rem;
+  }
+
+  .interestGroup p {
+    font-size: 1.4rem;
+  }
+}
