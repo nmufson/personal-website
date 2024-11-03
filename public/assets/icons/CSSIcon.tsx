@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const CSSIcon: React.FC<IconProps> = ({ color = '#1572B6' }) => {
+const CSSIcon = ({ color = '#1572B6' }: IconProps) => {
   return (
     <svg
       role="img"

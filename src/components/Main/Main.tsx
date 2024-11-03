@@ -5,7 +5,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Interests from '../Interests/Interests';
 
-const Main: React.FC = () => {
+const Main = () => {
   return (
     <main className={styles.main}>
       <h1 className={styles.mainTitle}>Full-Stack Web Developer</h1>

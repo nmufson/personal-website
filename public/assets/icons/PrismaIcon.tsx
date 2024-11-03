@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const PrismaIcon: React.FC<IconProps> = ({ color = '#2D3748' }) => {
+const PrismaIcon = ({ color = '#2D3748' }: IconProps) => {
   return (
     <svg
       role="img"

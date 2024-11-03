@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Header.module.css';
 import { useState } from 'react';
 import {
@@ -8,8 +7,7 @@ import {
   CloseIcon,
 } from '../../../public/assets/icons';
 
-// do i need this if no props?
-const Header: React.FC = () => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const LinkedInIcon: React.FC<IconProps> = ({ color = '#0A66C2' }) => {
+const LinkedInIcon = ({ color = '#0A66C2' }: IconProps) => {
   return (
     <svg
       role="img"

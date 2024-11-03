@@ -1,8 +1,7 @@
-import React from 'react';
 import styles from './Contact.module.css';
 import { LinkedInIcon, EmailIcon } from '../../../public/assets/icons';
 
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
     <div className={styles.contactContainer}>
       <p>

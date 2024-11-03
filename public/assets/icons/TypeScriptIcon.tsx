@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const TypeScriptIcon: React.FC<IconProps> = ({ color = '#3178C6' }) => {
+const TypeScriptIcon = ({ color = '#3178C6' }: IconProps) => {
   return (
     <svg
       role="img"

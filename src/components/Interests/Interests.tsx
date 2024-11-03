@@ -1,7 +1,6 @@
-import React from 'react';
 import styles from './Interests.module.css';
 
-const Interests: React.FC = () => {
+const Interests = () => {
   return (
     <>
       <div className={styles.interestGroup}>

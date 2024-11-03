@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const GitHubIcon: React.FC<IconProps> = ({ color = '#181717' }) => {
+const GitHubIcon = ({ color = '#181717' }: IconProps) => {
   return (
     <svg
       role="img"

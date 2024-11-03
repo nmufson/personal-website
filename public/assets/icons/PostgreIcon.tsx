@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const PostgreIcon: React.FC<IconProps> = ({ color = '#4169E1' }) => {
+const PostgreIcon = ({ color = '#4169E1' }: IconProps) => {
   return (
     <svg
       role="img"

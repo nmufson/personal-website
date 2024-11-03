@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const CloseIcon: React.FC<IconProps> = ({ color = 'black' }) => {
+const CloseIcon = ({ color = 'black' }: IconProps) => {
   return (
     <svg
       role="img"

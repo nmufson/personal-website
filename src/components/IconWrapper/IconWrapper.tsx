@@ -7,7 +7,7 @@ interface IconWrapperProps {
   techName: string;
 }
 
-const IconWrapper: React.FC<IconWrapperProps> = ({ children, techName }) => {
+const IconWrapper = ({ children, techName }: IconWrapperProps) => {
   return (
     <div className={styles.wrapper}>
       {children}

@@ -1,7 +1,6 @@
-import React from 'react';
 import { IconProps } from '../../../src/types';
 
-const NodeIcon: React.FC<IconProps> = ({ color = '#5FA04E' }) => {
+const NodeIcon = ({ color = '#5FA04E' }: IconProps) => {
   return (
     <svg
       role="img"

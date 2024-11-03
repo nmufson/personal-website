@@ -8,4 +8,5 @@ export interface ProjectProps {
   imageAltText: string;
   description: string;
   tech: React.FC<IconProps>[];
+  link: string;
 }
