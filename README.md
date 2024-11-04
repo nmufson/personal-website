@@ -1,6 +1,7 @@
 # Personal Website 
 
-Full-stack blogging platform integrating a backend with a dynamic frontend that offers a tailored experience for both authors and regular users.
+This is my personal website to show my web development skills, personal projects, and other interests. 
+
 ## Live Demo 
 https://personal-website-plkgqhbmx-nmufsons-projects.vercel.app/
 ## Technologies Used
@@ -8,7 +9,19 @@ https://personal-website-plkgqhbmx-nmufsons-projects.vercel.app/
 - TypeScript
 
 ## Features
+- Showcase of personal projects
+- Interactive elements demonstrating skills in React and TypeScript
+- Responsive design for mobile and desktop
 
+## Screenshots
+![Intro Section](./assets/intro.png)
+*Intro with a brief introduction*
+
+![Projects Section](./assets/projects.png)
+*List of projects with links to source code and live preview*
+
+![Contact Section](./assets/contact-me.png)
+*Methods to contact me*
 
 
 ## Contact Info
