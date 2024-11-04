@@ -3,7 +3,7 @@
 This is my personal website to show my web development skills, personal projects, and other interests. 
 
 ## Live Demo 
-https://personal-website-plkgqhbmx-nmufsons-projects.vercel.app/
+https://personal-website-dgekqmthv-nmufsons-projects.vercel.app/
 ## Technologies Used
 - React.js
 - TypeScript
