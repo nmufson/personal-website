@@ -50,7 +50,7 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   margin: 1rem 0 1rem 0;
   gap: 1rem;
 }
