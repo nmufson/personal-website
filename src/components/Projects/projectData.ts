@@ -15,8 +15,7 @@ const projects: ProjectProps[] = [
       'A comprehensive blogging platform featuring a backend integrated with two frontends for authors and users. Built with React, Node, Express, and PostgreSQL, it lets users browse posts, sign up, and comment. Authors manage posts with TinyMCE editor for custom layouts, with create, edit, and delete functionality. User authentication is via JWT, with database management by Prisma ORM.',
     tech: [JavaScriptIcon, ReactIcon, NodeIcon],
     gitHubLink: 'https://github.com/nmufson/blog-platform',
-    livePreviewLink:
-      'https://blog-platform-bd20rwn1y-nmufsons-projects.vercel.app/home',
+    livePreviewLink: 'https://blog-platform-chi-seven.vercel.app/',
   },
   {
     title: 'Members Only Messaging App',
@@ -36,8 +35,7 @@ const projects: ProjectProps[] = [
       'A front-end platform showcasing React development skills and best practices. The app features a responsive home page, a shop page with product cards displaying images, titles, prices, and ratings. Users can view detailed product information, manage their cart with quantity adjustments, and proceed to review and checkout their order. Utilizes local storage for cart persistence.',
     tech: [TypeScriptIcon, ReactIcon],
     gitHubLink: 'https://github.com/nmufson/shopping-cart',
-    livePreviewLink:
-      'https://shopping-cart-21j6ja7wg-nmufsons-projects.vercel.app/',
+    livePreviewLink: 'https://shopping-cart-umber-three.vercel.app/',
   },
 ];
 
