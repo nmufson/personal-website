@@ -27,16 +27,6 @@ const projects: ProjectProps[] = [
     livePreviewLink: 'https://lost-and-found-frontend-plum.vercel.app/',
   },
   {
-    title: 'Members Only Messaging App',
-    imagePath: './assets/members-only-screenshot.png',
-    imageAltText: 'messaging app project screenshot',
-    description:
-      'A messaging app allowing users to create accounts, send messages, and view posts. Membership is required to see usernames and timestamps, accessible via a special passcode. Built with Node.js, Express.js, and PostgreSQL, it features secure user authentication with Passport.js and bcrypt.js. Includes role-based privileges that allows admins to manage content. ',
-    tech: [JavaScriptIcon, NodeIcon],
-    gitHubLink: 'https://github.com/nmufson/members-only',
-    livePreviewLink: 'https://members-only-production-c726.up.railway.app/',
-  },
-  {
     title: 'E-Commerce Shopping Cart App',
     imagePath: './assets/shop-fast-screenshot.png',
     imageAltText: 'eCommerce app project screenshot',
@@ -45,6 +35,25 @@ const projects: ProjectProps[] = [
     tech: [TypeScriptIcon, ReactIcon],
     gitHubLink: 'https://github.com/nmufson/shopping-cart',
     livePreviewLink: 'https://shopping-cart-umber-three.vercel.app/',
+  },
+  {
+    title: 'Memory Game',
+    imagePath: './assets/memory-game-screenshot.png',
+    imageAltText: 'Memory Game project screenshot',
+    description: `Memory card game featuring characters from famous TV series 'The Wire' and 'Breaking Bad.' Users are challenged to select as many unique characters as possible without repeating selections.`,
+    tech: [TypeScriptIcon, ReactIcon],
+    gitHubLink: 'https://github.com/nmufson/memory-game',
+    livePreviewLink: 'https://memory-game-sable-seven.vercel.app/',
+  },
+  {
+    title: 'Members Only Messaging App',
+    imagePath: './assets/members-only-screenshot.png',
+    imageAltText: 'messaging app project screenshot',
+    description:
+      'A messaging app allowing users to create accounts, send messages, and view posts. Membership is required to see usernames and timestamps, accessible via a special passcode. Built with Node.js, Express.js, and PostgreSQL, it features secure user authentication with Passport.js and bcrypt.js. Includes role-based privileges that allows admins to manage content. ',
+    tech: [JavaScriptIcon, NodeIcon],
+    gitHubLink: 'https://github.com/nmufson/members-only',
+    livePreviewLink: 'https://members-only-production-c726.up.railway.app/',
   },
 ];
 
