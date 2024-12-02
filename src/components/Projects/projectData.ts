@@ -18,6 +18,15 @@ const projects: ProjectProps[] = [
     livePreviewLink: 'https://blog-platform-chi-seven.vercel.app/',
   },
   {
+    title: `"Lost & Found" - Where's Waldo Game`,
+    imagePath: './assets/lost-and-found-screenshot.png',
+    imageAltText: `"Lost & Found," Where's Waldo Game screenshot`,
+    description: `"Where's Waldo" style game featuring a backend that serves game images and character coordinates, and a frontend where players can find characters, compete for record times, and add their scores to the leaderboard. Built with React, Node, Express, and PostgreSQL.`,
+    tech: [TypeScriptIcon, ReactIcon, NodeIcon],
+    gitHubLink: 'https://github.com/nmufson/lost-and-found',
+    livePreviewLink: 'https://lost-and-found-frontend-plum.vercel.app/',
+  },
+  {
     title: 'Members Only Messaging App',
     imagePath: './assets/members-only-screenshot.png',
     imageAltText: 'messaging app project screenshot',

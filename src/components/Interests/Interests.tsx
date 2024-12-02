@@ -6,20 +6,24 @@ const Interests = () => {
       <div className={styles.interestGroup}>
         <h3>Health & Wellness</h3>
         <p>
-          I enjoy strength training and high-intensity cardio. I also like to
-          walk and bike around the city, which allows me to explore new
-          neighborhoods while remaining active outdoors.
+          I enjoy strength training and high-intensity cardio (usually
+          elliptical or running). I also like to walk and bike around the city,
+          which allows me to explore new neighborhoods while remaining active
+          outdoors.
         </p>
       </div>
       <div className={styles.interestGroup}>
         <h3>Language Learning</h3>
         <p>
-          I've been learning Spanish for eight months and recently added German
-          into the mix. I use the Comprehensible Input method, which involves
-          listening to, watching, or reading native content at an understandable
-          level. This makes the process more entertaining and natural as I get
-          to consume interesting content relating to philosophy, technology, and
-          local culture while also learning the language.
+          At the beginning of the year I started learning Spanish. I found an
+          interesting learning method called Comprehensible Input, which
+          involves simply watching, listening to, or reading content in your
+          target language and naturally acquiring it over time. The idea really
+          interested me because it didn't involve the things I disliked about
+          learning Spanish in highschool, like studying grammar or memorizing
+          flashcards. I've made a lot of progress and now enjoy listening to
+          Spanish podcasts while walking / running errands, typically about
+          philosophy, technology, or personal development.
         </p>
       </div>
       <div className={styles.interestGroup}>
