@@ -12,7 +12,7 @@ const projects: ProjectProps[] = [
     imagePath: './assets/blog-screenshot.png',
     imageAltText: 'blog project screenshot',
     description:
-      'A comprehensive blogging platform featuring a backend integrated with two frontends for authors and users. Built with React, Node, Express, and PostgreSQL, it lets users browse posts, sign up, and comment. Authors manage posts with TinyMCE editor for custom layouts, with create, edit, and delete functionality. User authentication is via JWT, with database management by Prisma ORM.',
+      'A comprehensive blogging platform integrating a backend with a dynamic frontend that offers a tailored experience for both authors and regular users. Built with React, Node, Express, and PostgreSQL, it lets users browse posts, sign up, and comment. Authors manage posts with TinyMCE editor for custom layouts, with create, edit, and delete functionality. User authentication is via JWT, with database management by Prisma ORM.',
     tech: [JavaScriptIcon, ReactIcon, NodeIcon],
     gitHubLink: 'https://github.com/nmufson/blog-platform',
     livePreviewLink: 'https://blog-platform-chi-seven.vercel.app/',
