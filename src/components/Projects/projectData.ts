@@ -40,7 +40,7 @@ const projects: ProjectProps[] = [
     title: 'Memory Game',
     imagePath: './assets/memory-game-screenshot.png',
     imageAltText: 'Memory Game project screenshot',
-    description: `Memory card game featuring characters from famous TV series 'The Wire' and 'Breaking Bad.' Users are challenged to select as many unique characters as possible without repeating selections.`,
+    description: `Memory card game featuring characters from famous TV series <i>The Wire</i> and <i>Breaking Bad</i>. Users are challenged to select as many unique characters as possible without repeating selections.`,
     tech: [TypeScriptIcon, ReactIcon],
     gitHubLink: 'https://github.com/nmufson/memory-game',
     livePreviewLink: 'https://memory-game-sable-seven.vercel.app/',

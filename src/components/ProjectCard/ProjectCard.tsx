@@ -28,7 +28,7 @@ const ProjectCard = ({
             </a>
           </p>
         </div>
-        <p>{description}</p>
+        <p dangerouslySetInnerHTML={{ __html: description }} />
         <div className={styles.techStack}>
           {tech.map((Icon, index) => (
             <Icon key={index} />
